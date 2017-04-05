@@ -7,4 +7,6 @@ public abstract class Tile {
     private BufferedImage buffImg;
 
 
+
+
 }
