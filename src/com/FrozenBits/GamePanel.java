@@ -1,6 +1,7 @@
 package com.FrozenBits;
 
 import com.FrozenBits.Map.Map;
+import com.FrozenBits.Utils.InputHandler;
 
 import javax.swing.*;
 import java.awt.*;
@@ -20,6 +21,8 @@ public class GamePanel extends JPanel implements Runnable, MouseListener, KeyLis
     private BufferedImage bufferedImage;
 
     private Map map;
+
+    private InputHandler inputHandler;
 
     private Thread thread;
 
@@ -112,6 +115,8 @@ public class GamePanel extends JPanel implements Runnable, MouseListener, KeyLis
 
     @Override
     public void keyPressed(KeyEvent e) {
+
+
 
     }
 
